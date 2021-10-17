@@ -1,0 +1,183 @@
+CSS
+-------------------------------------------------
+          /* &display=swap&subset=cyrillic-ext */
+
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap&subset=cyrillic-ext");
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/Lato-Regular.woff2') format('woff2'), url('../fonts/Lato-Regular-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+ }
+ 
+ @font-face {
+	font-family: 'Lato';
+	src: url('../fonts/Lato-Regular-Bold.woff2') format('woff2'),url('../fonts/Lato-Regular-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+ }
+ 
+/*                 Обнулення                      */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html {
+	font-size: 14px; /* по умолчанию 16px*/
+}
+body {
+	font-family: "Lato", cursive; 
+	line-height: 1;
+}
+/*                   Обнулення                           */
+
+.content{
+	background-color: #8D77FE;
+}
+
+li{
+	text-shadow: 0px 0px 3px #aa5713;
+	line-height: 150%;
+	font-family: "Lato", cursive; 
+}
+
+p.text_one {
+	font-family: "poppins", sans-serif; 
+	font-size: 14px;
+	font-weight: 300px;
+	line-height: 20px;
+	text-indent: 20px;
+	padding: 0px 0px 10px 0px;
+}
+
+span {
+	color: chocolate;
+	font-weight: 700;
+}
+
+.content_header{
+	background-color: #B0A0FC;
+	margin: 0px 20px 20px 20px;
+}
+
+.header_text {
+	font-family: "poppins", sans-serif;
+	text-shadow: 0px 0px 10px #5bca11;
+	font-size: 30px;
+	font-weight: 900;
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+	letter-spacing: 10px
+}
+
+.lesson_2 {
+	padding: 0px 0px 0px 70px;
+	text-decoration-line: overline;
+}
+
+.lesson_3 {
+	text-align: right;
+	margin: -22px 70px 0px 0px;
+	padding: 0px 0px 50px 0px;
+	text-decoration-line: underline;
+}
+
+.main_content{
+	background-color: #FEFEFF;
+	margin: 0px 20px 0px 20px;
+	padding: 0px 20px 0px 20px;
+
+}
+
+.text_one {
+}
+
+.text_two {
+	text-transform: capitalize;
+	line-height: normal;
+	word-spacing: 05px;
+	text-decoration: line-through;
+	text-indent: 20px;
+	padding: 0px 0px 10px 0px;
+
+
+}
+
+.title_fonts,
+.title_style,
+.title_weight,
+.text-align {
+	text-align: center;
+	font-weight: 700;
+	font-size: 15px;
+	text-shadow: 0px 0px 3px rgb(144, 74, 46);
+	word-spacing: 0px;
+	letter-spacing: 10px;
+	color: rgb(7, 54, 109);
+	padding: 10px 0px 10px 0px;
+
+}
+
+ul.title_fonts_ul,
+  .title_style_ul,
+  .title_weight_ul,
+  .text-align_ul{
+	  text-align: center;
+	  color: rgb(0, 0, 0);
+
+  }	
+
+text-align,
+.text-align_ul{
+	  text-align: end;
+  }
+
+.footer {
+	background-color: #0903ac8f;
+	color: #000000;
+	padding:  20px;
+	margin: 0px 20px 0px 20px;
+	text-shadow: 10px 0px 8px #ffffff;
+
+}
+.top{
+	text-align: right;
+	text-shadow: 0px 0px 5px #ffffff;
+	text-decoration: underline;
+	font-weight: bold;
+	font-family: lato, sans-serif;
+}
+
+
+
+
+	
